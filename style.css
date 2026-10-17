@@ -191,7 +191,7 @@ body {
         box-shadow: none;
     }
 }
-.button-group {
+.button {
     display: flex;
     flex-wrap: wrap;      
     gap: 12px;
@@ -212,7 +212,7 @@ body {
 }
 
 @media (max-width: 480px) {
-    .button-group {
+    .button {
         flex-direction: column;   
     }
     .button {
