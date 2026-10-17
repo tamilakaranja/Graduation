@@ -64,6 +64,7 @@ padding: 8px 7%;
     margin: 0px;
     align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
   }
 
 .grid {
@@ -191,12 +192,7 @@ body {
         box-shadow: none;
     }
 }
-.button {
-    display: flex;
-    flex-wrap: wrap;      
-    gap: 12px;
-    padding: 20px;
-}
+
 
 .button {
     background: var(--wine-red);
@@ -204,6 +200,9 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     text-align: center;
+     display: flex;
+    flex-wrap: wrap;      
+    padding: 20px;
 }
 
 .button:hover {
