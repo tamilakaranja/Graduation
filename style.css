@@ -191,3 +191,30 @@ body {
         box-shadow: none;
     }
 }
+.button-group {
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 12px;
+    padding: 20px;
+}
+
+.button {
+    background: var(--wine-red);
+    color: var(--cream);
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.button:hover {
+    background: var(--light-red);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 480px) {
+    .button-group {
+        flex-direction: column;   
+    }
+    .button {
+        width: 100%;              /
+}
