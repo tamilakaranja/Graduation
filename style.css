@@ -33,6 +33,11 @@ a {
     text-decoration: none;
 }
 
+.graduants-small-text {
+    color: white;
+font-size: 25px;
+
+}
 .hero {
     min-height: 90vh;
     display: flex;
@@ -66,7 +71,7 @@ padding: 8px 7%;
     font-weight: 700;
     line-height: 1.05;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 .hero-content .hero-label{
@@ -211,5 +216,6 @@ body {
     border-radius: 16px;
     text-align: center;
     background-color: var(--cream); 
+    margin-bottom: 20px;
    
  }
